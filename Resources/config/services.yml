@@ -17,6 +17,6 @@ services:
 
     coffreo.php_translation.js_extractor.tsx:
         class:  Coffreo\PHPTranslationJsExtractorBundle\Extractor\JsFileExtractor
-        arguments: ['jsx']
+        arguments: ['tsx']
         tags:
             - { name: 'php_translation.extractor', type: 'tsx' }
