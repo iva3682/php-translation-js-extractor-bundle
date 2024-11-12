@@ -52,11 +52,5 @@
         "branch-alias": {
             "dev-master": "2.0.x-dev"
         }
-    },
-    "repositories": [
-        {
-          "type": "vcs",
-          "url": "https://github.com/iva3682/js-translation-extractor.git"
-        }
-    ]
+    }
 }
