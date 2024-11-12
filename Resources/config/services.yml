@@ -9,3 +9,14 @@ services:
         arguments: ['jsx']
         tags:
             - { name: 'php_translation.extractor', type: 'jsx' }
+            
+    coffreo.php_translation.js_extractor.ts:
+        class:  Coffreo\PHPTranslationJsExtractorBundle\Extractor\JsFileExtractor
+        tags:
+            - { name: 'php_translation.extractor', type: 'ts' }
+
+    coffreo.php_translation.js_extractor.tsx:
+        class:  Coffreo\PHPTranslationJsExtractorBundle\Extractor\JsFileExtractor
+        arguments: ['jsx']
+        tags:
+            - { name: 'php_translation.extractor', type: 'tsx' }
