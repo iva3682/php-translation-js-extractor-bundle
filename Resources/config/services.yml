@@ -12,6 +12,7 @@ services:
             
     coffreo.php_translation.js_extractor.ts:
         class:  Coffreo\PHPTranslationJsExtractorBundle\Extractor\JsFileExtractor
+        arguments: ['ts']
         tags:
             - { name: 'php_translation.extractor', type: 'ts' }
 
