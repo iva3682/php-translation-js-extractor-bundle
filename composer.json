@@ -3,8 +3,6 @@
     "description": "Add javascript translation extractor for php-translation/symfony-bundle package",
     "type": "symfony-bundle",
     "license": "MIT",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "authors": [
         {
             "name": "Cyril MERY",
@@ -48,11 +46,6 @@
     "autoload-dev": {
         "psr-4": {
             "Coffreo\\PHPTranslationJsExtractorBundle\\Tests\\": "tests/"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.0.x-dev"
         }
     }
 }
