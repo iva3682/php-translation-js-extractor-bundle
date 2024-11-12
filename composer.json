@@ -3,8 +3,6 @@
     "description": "Add javascript translation extractor for php-translation/symfony-bundle package",
     "type": "symfony-bundle",
     "license": "MIT",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "authors": [
         {
             "name": "Cyril MERY",
